@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:  #BF9264;
+  font-family: "Nunito", sans-serif;
+}
+.container{
+  max-width: 1000px;
+  margin: 30px auto;  
+  color: #fff;
+}
+.container h1:first-child{
+  display: flex;
+  height: 0;
+}
+.self-help-books{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 20px 0;
+  padding: 10px;
+  height: 100%;
+} 
+.book img{
+  height: 200px;
+  box-shadow: 0px 5px 15px #fff;
+}
+.book{
+ // width: 200px;
+  margin-bottom: 12px;
+}
+.book a{
+  text-decoration: none;
+  color: #fff;
+}
+.book a:hover,
+.book img:hover{
+  text-decoration: underline;
+  box-shadow: 0 5px 50px #fff;
+  
+}
+.book-title{
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 2em;
+  //letter-spacing: .1rem;
+}
+.business{
+  display: flex;
+  flex-wrap: wrap;
+}
+.business h1:first-child{
+  font-size: 24px;
+  margin: 30px 25px;
+}
+.business .book{
+  margin: 12px;
+  flex: 1;
+}
+.gb{
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: right;
+  //align-items: right;
+}
